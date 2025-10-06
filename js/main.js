@@ -43,7 +43,7 @@ function loadPersonalInfo() {
   document.getElementById('footerName').textContent = personalInfo.name;
 
   const profileImage = document.getElementById('profileImage');
-  profileImage.src = `profile.png`;
+  profileImage.src = `https://cdn-icons-png.flaticon.com/512/9815/9815472.png`;
   profileImage.alt = personalInfo.name;
 
   typeText(personalInfo.title, 'typingText');
